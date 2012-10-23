@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <h1>Success</h1>
+  <head></head>
+  <body>
+  	{% for r in resume %}
+  		<a href="{{ r.photos.url }}"><img src="{{ r.photos.url }}" style="max-width: 100px;"></a> 
+  		<br />
+  	{% endfor %}
+  </body>
+</html>
